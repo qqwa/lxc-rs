@@ -1,0 +1,9 @@
+[package]
+name = "lxc-rs"
+version = "0.1.0"
+authors = ["Benjamin Bäumler <benjamin.baeumler@qqwa.de>"]
+license = "MIT OR Apache-2.0"
+edition = "2018"
+
+[dependencies]
+lxc-sys2 = { git = "https://github.com/qqwa/lxc-sys2.git", branch = "dev" }
